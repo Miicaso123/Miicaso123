@@ -49,7 +49,26 @@
 
 ###
 
-<p align="left">class WhoAmI {<br>  user: string = 'Kurmanai';<br>  currentWork: string = 'Becoming a top-tier Frontend Developer 🚀';<br><br>  hobbies: string[] = [<br>    'Drawing in my sketchbook 🎨',<br>    'Playing the ukulele 🎶',<br>    'Practicing Muay Thai 🥊',<br>    'Reading manhwa and self-growth books 📚',<br>    'Chasing that ONE elusive bug all night… 🐛💻'<br>  ];<br><br>  getCity(): string {<br>    return 'Almaty, Kazakhstan 🇰🇿';<br>  }<br>}<br><br>const me = new WhoAmI();<br>console.log(`Hi, I'm ${me.user} from ${me.getCity()}`);</p>
+<p align="left">class WhoAmI {<br>  user: string = 'Kurmanay';<br>  currentWork: string = 'Becoming a top-tier Frontend Developer 🚀';<br><br>  hobbies: string[] = [<br>    'Drawing in my sketchbook 🎨',<br>    'Playing the ukulele 🎶',<br>    'Practicing Muay Thai 🥊',<br>    'Reading manhwa and self-growth books 📚',<br>    'Chasing that ONE elusive bug all night… 🐛💻'<br>  ];<br><br>  getCity(): string {<br>    return 'Almaty, Kazakhstan 🇰🇿';<br>  }<br>}<br><br>const me = new WhoAmI();<br>console.log(`Hi, I'm ${me.user} from ${me.getCity()}`);</p>
+
+class WhoAmI:
+	user = 'Haany Ali'
+   	current_work = 'Writing code'
+   	hobbies = [
+   			'Drawing',
+   			'Watching Anime',
+   			'Reading Sci-Fi Novels'
+   			'Being up all Night chasing that ONE BUG...'
+   		]
+   
+   def getCity():
+   	return Vancouver_Canada()
+   
+   def Ambitions():
+   	LearnJapanese()
+   	CreateSkyNet()
+   	FinishMyNovel()
+   	# Assume 10 more awesome ambitions here  ;)
 
 ###
 
